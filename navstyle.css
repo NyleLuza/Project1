@@ -1,31 +1,236 @@
+body{
+  background-color: #1F2937;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  border: 2px;
+  background-color: #1F2937;;
+  height: 500px;
+}
 nav ul {
     display: flex;
-    border: 4px solid black;
     flex-direction: row;
     list-style-type: none;
     gap: 30px;
-    justify-content: flex-end;
     height: 64px;
     align-items: center;
     padding-inline: 250px;
+    background-color: #1F2937;
+  }
+  a.l{
+    font-size: 24px;
+    color: #F9FAF8;
+    
   }
   a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
   }
   li.logo {
     margin-left: 0;
-    margin-right: auto;
+    margin-right: auto;  
   }
 
-  .container{
+  .header-container{
     display: flex;
-    border: 2px solid black;
     height: 400px;
+    justify-content: center;
+    border: 10px;
+    align-items: center;
   }
-  .text{
-    border: 10px solid black;
+  .textcon{
+    display: flex;
     flex-direction: row;
+    border: 4px;
+    width: 1400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
   }
   .item{
+    display: flex;
+    flex: 1;
+    border: 2px;
+    height: 300px;
+    flex-direction: column;
+  
+  }
+  .item-box{
+    font-size: 48px;
+    border: 2px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    width: 700px;
+    height: 50px;
+  }
+  p{
+    width: 700px;
+    height: 100px;
+    font-size: 18px;
+    border: 2px;
+  }
+  .button{
+    display: flex;
+    width: 700px;
+    border: 2px;
+    height: 50px;
+  }
+  .button-box{
+    border: 2px solid blue;
+    background-color: blue;
+    width: 70px;
+    margin: 10px;
+    padding-left: 23px;
+    padding-top: 3px;
+    color: #E5E7EB;
+  }
+  .imagecon{
+    display: flex;
+    flex: 1;
+    border: 2px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+  }
+  .layout2{
+    border: 4px;
+    display: flex;
+    background-color: white;
+    height: 400px;
     flex-direction: column;
   }
+  .random{
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+  }
+  .subhead{
+    display: flex;
+    border: 2px;
+    justify-content: center;
+    margin: 20px;
+    
+  }
+  .header-random{
+    border: 2px;
+    justify-content: center;
+  }
+  .fourbox{
+    display: flex;
+    border: 2px;
+    justify-content: center;
+  }
+  .box{
+    border: 2px;
+    display: flex;
+    background-color: white;
+    gap: 100px;
+    height: 110px;
+    
+  }
+  .boxes{
+    border: 2px solid #1F2937;
+    width: 15px;
+    height: 15px;
+    padding: 40px;
+    
+  }
+  .layout3{
+    display: flex;
+    border: solid purple;
+    background-color: #e5e7eb;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    
+  }
+  .quote-header{
+    display: flex;
+    border: 2px;
+    display: flex;
+    width: 750px;
+    height: 600px;
+    justify-content: center;
+    padding-top: 70px;
+  }
+
+  p{
+    color: black;
+  }
+  .auth-header{
+    border: 2px;
+    display: flex;
+    width: 750px;
+    height:50px;
+    justify-content: flex-end;
+    
+  }
+  .subcon{
+    height: 100px;
+  }
+  .auth{
+    border: 2px solid red;
+    flex: 1;
+  }
+  .layout4{
+    border: 2px solid green;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .bigbox{
+    display: flex;
+    border: 2px solid black;
+    margin: 100px;
+    height: 200px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .columnbox{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    width: 500px;
+    height: 100px;
+    
+  }
+  .textbox{
+    flex: 1;
+    border: 2px solid black;
+  }
+  .signup-con{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .sbutton{
+    width: 50px;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .layout5{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .copyright{
+    //font
+  }
+
+
+  
