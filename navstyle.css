@@ -60,7 +60,7 @@ nav ul {
   .item-box{
     font-size: 48px;
     border: 2px;
-    font-style: extra-bold;
+    font: extra-bold;
     color: #F9FAF8;
     width: 700px;
     height: 50px;
@@ -124,7 +124,10 @@ nav ul {
   .fourbox{
     display: flex;
     border: 2px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px;
+    height: 275px;
   }
   .box{
     border: 2px;
@@ -132,18 +135,30 @@ nav ul {
     background-color: white;
     gap: 100px;
     height: 110px;
+    width: 1100px;
+    flex: 1;
+    border: 2px;
+    justify-content: center;
+    
     
   }
   .boxes{
     border: 2px solid #1F2937;
-    width: 15px;
-    height: 15px;
-    padding: 40px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+  }
+  .boxes-txt{
+    margin-top: 10px;
+    border: 2px;
+    width: 200px;
+    height: 100px;
+   
     
   }
   .layout3{
     display: flex;
-    border: solid purple;
+    border: 2px;
     background-color: #e5e7eb;
     align-items: center;
     flex-direction: column;
@@ -159,9 +174,12 @@ nav ul {
     justify-content: center;
     padding-top: 70px;
   }
+  .ftext{
+    color: black;
+  }
 
   p{
-    color: black;
+    color: white;
   }
   .auth-header{
     border: 2px;
@@ -175,19 +193,20 @@ nav ul {
     height: 100px;
   }
   .auth{
-    border: 2px solid red;
+    border: 2px;
     flex: 1;
   }
   .layout4{
-    border: 2px solid green;
+    border: 2px;
     height: 400px;
     display: flex;
     justify-content: center;
+    background-color: white;
     
   }
   .bigbox{
     display: flex;
-    border: 2px solid black;
+    border: 2px;
     margin: 100px;
     height: 200px;
     width: 1000px;
@@ -199,20 +218,28 @@ nav ul {
   .columnbox{
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
-    width: 500px;
+    border: 3px;
+    width: 900px;
     height: 100px;
-    
+    background-color: #3882f6;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-radius: 10px;
   }
   .textbox{
     flex: 1;
-    border: 2px solid black;
+    color: #E5E7EB;
+    border: 2px;
   }
   .signup-con{
     display: flex;
-    height: 100px;
-    width: 200px;
-    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+    padding-top: 3px;
+    background-color: blue;
+    border: 2px;
+    border-radius: 10px;
+    color: white;
     justify-content: center;
     align-items: center;
   }
@@ -223,13 +250,13 @@ nav ul {
   }
   .layout5{
     display: flex;
-    border: 2px solid black;
+    border: 2px;
     justify-content: center;
     align-items: center;
     height: 100px;
   }
   .copyright{
-    //font
+    color: white;
   }
 
 
